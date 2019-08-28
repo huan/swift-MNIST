@@ -1,4 +1,4 @@
-# swift-dataset-mnist
+# Swift MNIST Dataset
 
 ![MNIST dataset](docs/images/mnist-example.png)
 
