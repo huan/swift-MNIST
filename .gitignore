@@ -66,3 +66,12 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+
+train-images-idx3-ubyte
+train-labels-idx1-ubyte
