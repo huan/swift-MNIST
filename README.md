@@ -78,6 +78,7 @@ First version, used from [Tensorflow Handbook for Swift](https://github.com/huan
 - [Getting Started - Using the Package Manager
 ](https://swift.org/getting-started/#using-the-package-manager)
 - [Swift Package Manager Official Document](https://swift.org/package-manager/)
+- [Swift Package Manager Usage](https://github.com/apple/swift-package-manager/blob/master/Documentation/Usage.md)
 
 ## Author
 
