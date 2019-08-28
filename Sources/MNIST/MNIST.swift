@@ -19,11 +19,15 @@ public class MNIST {
   }
 
   // Split data into training and test
-  public func splitTrainTest() -> (
-    Tensor<Float>,
-    Tensor<Int32>,
-    Tensor<Float> ,
-    Tensor<Int32>
+  public func loadData() -> (
+    (
+      Tensor<Float>,
+      Tensor<Int32>
+    ),
+    (
+      Tensor<Float>,
+      Tensor<Int32>
+    )
   ) {
     let data = self.images!
     let labels = self.labels!
@@ -37,7 +41,10 @@ public class MNIST {
     let testX = data[split..<N]
     let testY = labels[split..<N]
     
-    return (trainX, trainY, testX, testY)
+    return (
+      (trainX, trainY),
+      (testX, testY)
+    )
   }
 
   // report accuracy of a batch 
