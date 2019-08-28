@@ -10,7 +10,7 @@ public class MNIST {
   var images: Tensor<Float>?
   var labels: Tensor<Int32>?
 
-  init() {
+  public init() {
     // convert into tensors
     (self.images, self.labels) = self.readMNIST(
       imagesFile: self.mnistFiles[0],
