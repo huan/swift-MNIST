@@ -2,7 +2,7 @@ import TensorFlow
 import Python
 import Foundation
 
-class MNIST {
+public class MNIST {
 
   let mnistBaseURL = "https://raw.githubusercontent.com/tensorflow/swift-models/master/Datasets/MNIST/"
   let mnistFiles = ["train-images-idx3-ubyte", "train-labels-idx1-ubyte"]
