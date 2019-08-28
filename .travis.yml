@@ -1,0 +1,16 @@
+# Ubuntu 18.04
+dist: bionic
+
+addons:
+  apt:
+    packages:
+    - clang
+    - libpython-dev
+    - libblocksruntime-dev
+
+install:
+  - wget https://storage.googleapis.com/swift-tensorflow-artifacts/nightlies/latest/swift-tensorflow-DEVELOPMENT-ubuntu18.04.tar.gz
+  - tar xzvf swift-tensorflow-*-*.tar.gz --directory=/ 
+
+script:
+  - swift test
