@@ -4,6 +4,8 @@
 
 Swift Module for [MNIST database (Modified National Institute of Standards and Technology database)](https://en.wikipedia.org/wiki/MNIST_database)
 
+This module is made by the purpose of easy to use for the [Swift Chapter](https://github.com/tensorflow-handbook-swift) in [Tensorflow Handbook](https://tf.wiki).
+
 ## Usage
 
 Class `MNIST` will provide all you need.
@@ -64,6 +66,12 @@ let package = Package(
     ]
 )
 ```
+
+## History
+
+### v0.0.3 (28 Aug 2019)
+
+First version, used from [Tensorflow Handbook for Swift](https://github.com/huan/tensorflow-handbook-swift)
 
 ## Links
 
