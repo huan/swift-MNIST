@@ -16,7 +16,7 @@ Class `MNIST` will provide all you need.
 import MNIST
 
 let mnist = MNIST()
-let (trainImages, trainLabels, testImages, testLabels) = mnist.splitTrainTest()
+let ((trainImages, trainLabels), (testImages, testLabels)) = mnist.loadData()
 
 let imageBatch = Dataset(elements: trainImages).batched(32)
 let labelBatch = Dataset(elements: trainLabels).batched(32)
@@ -52,7 +52,7 @@ let package = Package(
     name: "tensorflow-handbook-swift",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/huan/swift-MNIST.git", from: "0.0.3"),
+        .package(url: "https://github.com/huan/swift-MNIST.git", from: "0.1.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -69,7 +69,7 @@ let package = Package(
 
 ## History
 
-### v0.0.3 (28 Aug 2019)
+### v0.1.0 (28 Aug 2019)
 
 First version, used from [Tensorflow Handbook for Swift](https://github.com/huan/tensorflow-handbook-swift)
 
