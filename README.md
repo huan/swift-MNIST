@@ -1,10 +1,18 @@
 # swift-dataset-mnist
 
-MNIST Dataset Swift Module
+![MNIST dataset](docs/images/mnist-example.png)
+
+Swift Module for [MNIST database (Modified National Institute of Standards and Technology database)](https://en.wikipedia.org/wiki/MNIST_database)
 
 ## Usage
 
+Class `MNIST` will provide all you need.
+
+### `main.swift`
+
 ```swift
+import MNIST
+
 let mnist = MNIST()
 let (trainImages, trainLabels, testImages, testLabels) = mnist.splitTrainTest()
 
@@ -29,6 +37,33 @@ print("Test Accuracy: \(acc)" )
 ```
 
 Learn more from [Tensorflow Handbook for Swift](https://github.com/huan/tensorflow-handbook-swift)
+
+### `Package.swift`
+
+```swift
+// swift-tools-version:5.1
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
+import PackageDescription
+
+let package = Package(
+    name: "tensorflow-handbook-swift",
+    dependencies: [
+        // Dependencies declare other packages that this package depends on.
+        .package(url: "https://github.com/huan/swift-MNIST.git", from: "0.0.3"),
+    ],
+    targets: [
+        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
+        // Targets can depend on other targets in this package, and on products in packages which this package depends on.
+        .target(
+            name: "s4tf",
+            dependencies: ["MNIST"]),
+        .testTarget(
+            name: "s4tfTests",
+            dependencies: ["s4tf"]),
+    ]
+)
+```
 
 ## Links
 
