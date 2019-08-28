@@ -1,6 +1,6 @@
 # Swift MNIST Dataset
 
-![MNIST dataset](docs/images/mnist-example.png)
+![MNIST dataset](docs/images/swift-mnist.png)
 
 Swift Module for [MNIST database (Modified National Institute of Standards and Technology database)](https://en.wikipedia.org/wiki/MNIST_database)
 
