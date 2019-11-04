@@ -4,7 +4,7 @@ import Foundation
 
 public class MNIST {
 
-  let mnistBaseURL = "https://raw.githubusercontent.com/tensorflow/swift-models/master/Datasets/MNIST/"
+  let mnistBaseURL = "https://github.com/huan/swift-MNIST/releases/download/0.1.0/"
   let mnistFiles = ["train-images-idx3-ubyte", "train-labels-idx1-ubyte"]
   
   var images: Tensor<Float>?
