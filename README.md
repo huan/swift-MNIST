@@ -75,6 +75,10 @@ let package = Package(
 
 ## History
 
+### v0.2 (4 Nov, 2019)
+
+Fix the MNIST Dataset file 404 problem.
+
 ### v0.1.0 (28 Aug 2019)
 
 First version, used from [Tensorflow Handbook for Swift](https://github.com/huan/tensorflow-handbook-swift)
