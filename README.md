@@ -54,7 +54,7 @@ let package = Package(
     name: "tensorflow-handbook-swift",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/huan/swift-MNIST.git", from: "0.2"),
+        .package(url: "https://github.com/huan/swift-MNIST.git", majorVersion: 0, minor: 2),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -75,11 +75,11 @@ let package = Package(
 
 ## History
 
-### v0.3 master
+### v0.3.0 master
 
 Developing branch ...
 
-### v0.2 (4 Nov, 2019)
+### v0.2.1 (11 Nov, 2019)
 
 Fix the MNIST Dataset file 404 problem.
 
@@ -89,21 +89,20 @@ First version, used from [Tensorflow Handbook for Swift](https://github.com/huan
 
 ## Links
 
-- [Getting Started - Using the Package Manager
-](https://swift.org/getting-started/#using-the-package-manager)
+- [Getting Started - Using the Package Manager](https://swift.org/getting-started/#using-the-package-manager)
 - [Swift Package Manager Official Document](https://swift.org/package-manager/)
 - [Swift Package Manager Usage](https://github.com/apple/swift-package-manager/blob/master/Documentation/Usage.md)
 - [Handle dependencies with Swift Package Manager](https://www.codementor.io/marcinzbijowski/handle-dependencies-with-swift-package-manager-hx0ryac5u)
+- [How to specify semver version for Swift Package](https://stackoverflow.com/a/40069270/1123955)
 
 ## Author
 
 [Huan](https://github.com/huan) [(李卓桓)](http://linkedin.com/in/zixia) <zixia@zixia.net>
 
-[![Profile of Huan LI (李卓桓) on StackOverflow](https://stackexchange.com/users/flair/265499.png)](https://stackexchange.com/users/265499)
+[![Profile of Huan LI (李卓桓) on StackOverflow](https://stackoverflow.com/users/flair/1123955.png)](https://stackoverflow.com/users/1123955/huan)
 
 ## Copyright & License
 
-- Code & Docs © 2019 - now Huan (李卓桓) <zixia@zixia.net>
+- Code & Docs © 2019-now Huan LI (李卓桓) <zixia@zixia.net>
 - Code released under the Apache-2.0 License
 - Docs released under Creative Commons
-
