@@ -94,7 +94,7 @@ public class MNIST {
     print("Constructing data tensors.")
     return (
         images: Tensor(shape: [rowCount, 1, imageHeight, imageWidth], scalars: images)
-                .transposed(withPermutations: [0, 2, 3, 1]) / 255, // NHWC
+                .transposed(permutation: [0, 2, 3, 1]) / 255, // NHWC
         labels: Tensor(labels)
     )
   }
