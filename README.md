@@ -54,7 +54,7 @@ let package = Package(
     name: "tensorflow-handbook-swift",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/huan/swift-MNIST.git", majorVersion: 0, minor: 2),
+        .package(url: "https://github.com/huan/swift-MNIST.git", from: "0.2.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -93,7 +93,7 @@ First version, used from [Tensorflow Handbook for Swift](https://github.com/huan
 - [Swift Package Manager Official Document](https://swift.org/package-manager/)
 - [Swift Package Manager Usage](https://github.com/apple/swift-package-manager/blob/master/Documentation/Usage.md)
 - [Handle dependencies with Swift Package Manager](https://www.codementor.io/marcinzbijowski/handle-dependencies-with-swift-package-manager-hx0ryac5u)
-- [How to specify semver version for Swift Package](https://stackoverflow.com/a/40069270/1123955)
+- [How to specify semver version for Swift Package](https://github.com/apple/swift-package-manager/blob/master/Documentation/PackageDescription.md#methods-3)
 
 ## Author
 
