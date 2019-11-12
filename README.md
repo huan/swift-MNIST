@@ -75,11 +75,11 @@ let package = Package(
 
 ## History
 
-### v0.3.0 master
+### v0.5.0 master
 
 Developing branch ...
 
-### v0.2.1 (11 Nov, 2019)
+### v0.4.0 (12 Nov, 2019)
 
 Fix the MNIST Dataset file 404 problem.
 
