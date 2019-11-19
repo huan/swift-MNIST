@@ -12,6 +12,15 @@ This module is made by the purpose of easy to use for the [Swift Chapter](https:
 
 Class `MNIST` will provide all you need.
 
+We have example demo code that you can run directly. Run our demo by:
+
+```shell
+# if you need docker environment to run swift:
+# make docker
+
+make demo
+```
+
 ### `main.swift`
 
 ```swift
@@ -77,7 +86,7 @@ let package = Package(
 
 ### v0.5.0 master
 
-Developing branch ...
+Add exmple code base in `examples/`, run the demo by `make demo`.
 
 ### v0.4.0 (12 Nov, 2019)
 
