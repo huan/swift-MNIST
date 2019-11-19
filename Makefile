@@ -26,6 +26,10 @@ docker:
 test:
 	swift test
 
+.PHONY: demo
+demo:
+	(cd examples && swift run)
+
 .PHONY: code
 code:
 	code .
