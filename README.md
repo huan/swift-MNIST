@@ -21,6 +21,25 @@ We have example demo code that you can run directly. Run our demo by:
 make demo
 ```
 
+Output:
+
+```sh
+$ make docker
+docker run -ti --rm \
+  --privileged \
+  --userns=host \
+  -v "$(pwd)":/notebooks \
+  zixia/swift \
+  bash
+make demomake demo
+root@b07ae41e460c:/notebooks# make demo
+(cd examples && swift run)
+[2/2] Merging module s4tf
+Reading data.
+Constructing data tensors.
+Test Accuracy: 0.93633336
+```
+
 ### `main.swift`
 
 ```swift
