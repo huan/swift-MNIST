@@ -100,7 +100,8 @@ let package = Package(
 
 ## Talks
 
-- [Convolutional Neural Networks with Swift (and 🐍) - Brett Koonce, Quarkworks CTO & ML GDE](http://static.brettkoonce.com/presentations/convolutional_neural_networks_swift.pdf)
+- [Convolutional Neural Networks with Swift (and 🐍) - Brett Koonce, Quarkworks CTO & ML GDE](http://static.brettkoonce.com/presentations/convolutional_neural_networks_swift.pdf) (slide)
+- [Convolutional neural networks with Swift - Kirkland ML Summit ‘19 - Brett Koonce, CTO at Quarkworks and Google Developers Expert](https://www.youtube.com/watch?v=d6jZUYjHaWI) (video)
 
 ## History
 
