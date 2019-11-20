@@ -104,15 +104,15 @@ let package = Package(
 
 ## History
 
-### v0.5.0 master
+### master
 
 Add exmple code base in `examples/`, run the demo by `make demo`.
 
-### v0.4.0 (12 Nov, 2019)
+### 0.4.0 (12 Nov, 2019)
 
 Fix the MNIST Dataset file 404 problem.
 
-### v0.1.0 (28 Aug 2019)
+### 0.1.0 (28 Aug 2019)
 
 First version, used from [Tensorflow Handbook for Swift](https://github.com/huan/tensorflow-handbook-swift)
 
