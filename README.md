@@ -15,6 +15,9 @@ Class `MNIST` will provide all you need.
 We have example demo code that you can run directly. Run our demo by:
 
 ```shell
+git clone git@github.com:huan/swift-MNIST.git
+cd swift-MNIST
+
 # if you need docker environment to run swift:
 # make docker
 
