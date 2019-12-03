@@ -13,6 +13,10 @@ clean:
 .PHONY: lint
 lint: pylint pycodestyle flake8 mypy
 
+.PHONY: pull
+pull:
+	docker pull zixia/swift
+
 .PHONY: docker
 docker:
 	docker run -ti --rm \
