@@ -15,6 +15,9 @@ Class `MNIST` will provide all you need.
 We have example demo code that you can run directly. Run our demo by:
 
 ```shell
+git clone git@github.com:huan/swift-MNIST.git
+cd swift-MNIST
+
 # if you need docker environment to run swift:
 # make docker
 
@@ -33,6 +36,7 @@ docker run -ti --rm \
   bash
 
 root@b07ae41e460c:/notebooks#
+
 root@b07ae41e460c:/notebooks# make demo
 (cd examples && swift run)
 [2/2] Merging module s4tf
@@ -100,7 +104,8 @@ let package = Package(
 
 ## Talks
 
-- [Convolutional Neural Networks with Swift (and 🐍) - Brett Koonce, Quarkworks CTO & ML GDE](http://static.brettkoonce.com/presentations/convolutional_neural_networks_swift.pdf)
+- [Convolutional Neural Networks with Swift (and 🐍) - Brett Koonce, Quarkworks CTO & ML GDE](http://static.brettkoonce.com/presentations/convolutional_neural_networks_swift.pdf) (slide)
+- [Convolutional neural networks with Swift - Kirkland ML Summit ‘19 - Brett Koonce, CTO at Quarkworks and Google Developers Expert](https://www.youtube.com/watch?v=d6jZUYjHaWI) (video)
 
 ## History
 
